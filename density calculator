@@ -1,0 +1,22 @@
+# density law python
+
+# density = mass/ volume
+
+mass = input("Enter the mass :")
+volume = input("Enter the volume :")
+
+m = int(mass)
+v = int(volume)
+
+d = m / v
+
+print(d)
+
+if d > 1:
+    print("the matter is diving")
+elif d == 1:
+    print("the matter is water")
+else:
+    print("the matter is floating ")
+
+# code made by Dr Mahmoud "Alwasify"
