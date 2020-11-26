@@ -5,8 +5,8 @@
 mass = input("Enter the mass :")
 volume = input("Enter the volume :")
 
-m = int(mass)
-v = int(volume)
+m = float(mass)
+v = float(volume)
 
 d = m / v
 
