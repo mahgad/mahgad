@@ -1,0 +1,21 @@
+# kinetic energy law python
+
+# the law  :  kinetic energy = half of the mass x speed box
+
+
+x = input("Enter the mass :")
+y = input("Enter the speed :")
+
+m = float(x)
+s = float(y)
+
+kg = (m / 2) * (s ** 2)  # kg is kinetic energy
+
+print("kinetic energy is :", kg, "jol")
+if s == 0:
+    print("The Body is static")
+
+# Code Made by Dr Mahmoud Alwasify
+# law by miss Zeinab salem
+
+
